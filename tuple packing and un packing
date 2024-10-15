@@ -1,0 +1,15 @@
+
+## tuple packing and un packing#
+##t=(10,20,30,40)
+#a,b,c,d=t
+#print('a=',a,'b=',b,'c=',c,'d=',d
+
+###
+##a,b,c= 5
+##a,b,c,d=(10,20,30)
+
+
+##tuple comprehension##
+x=(i*i for i in range(11))
+for i in x:
+    print(i)

@@ -1,0 +1,19 @@
+
+###arithemetic operators##
+a=56
+b=89
+print(a+b)#145
+######
+a=456
+b=566
+print(a-b)#-110
+print(a%b)#456
+print(a*b)#258096
+print(a/b)#0.8056537102473498
+#######relational operators###
+x=12
+y=67
+print(x>y)#false
+y=56
+x=46
+print(y<x)#false
