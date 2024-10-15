@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            width:300px;
+            background-color: pink;
+            color:white;
+            border-radius: 20px;
+            margin:auto;
+            padding:20px;
+            box-shawdow:red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div align=""centre>
+            <h1><u>Registration form</u></h1>
+        </div>
+        <form action="registration.html" method="past" auto complete="off"></form>
+        <p>
+            <label>Full name</label><span>
+                <input type="text" id="fna" name="fna" required auto focus>
+        </p>
+        <p>
+            <label for ="phone">contact number</label>
+            <span>*</span><br>
+            <input type="text" id="phone" name="phone" required max length="10">
+        </p>
+        <p>
+            <label for="email">email id</label>
+            <span>*</span><br>
+            <input type="email" id="em" name="em" required>
+        </p>
+        <p>
+            <label for="dob">date of birth</label><br>
+            <input type="date" id="dob" name ="dob" min ="1994-01-14" max="2014-12-31">
+        </p>
+        <p>
+            <label>gender</label><br>
+            <input type="radio" id="g1" name="gen" value="m" checked>
+            <label>male</label>&nbsp;
+            <input type="radio" id="g2" name="gen" value="f" checked>
+            <label>female</label>&nbsp;
+            <input type="radio" id="g3" name="gen"value="o"checked>
+            <label>others</label>&nbsp;
+            <input type="radio" id="g4" name="gen" value="m"checked>
+        </p>
+        <p>
+             <label for="course">Which course?</label><br>
+             <select id="course" name="course">
+                    <option value="html">select course</option>
+                    <option value="c">c language</option>
+                    <option value="py">c++language</option>
+                    <option value="python">full stack python</option>
+                    <option value="java">full stack java</option>
+                    <option value="cpp">dot. net</option>
+        </select>
+        </p>
+        <p>
+            <label for="mot">Mode of training</label><br>
+            <select id="mot" name="mot">
+                <option value="ct">classroom training</option>
+                <option value="ot">online training</option>
+                <option value="pt">project training</option>
+                <option value="pmt">placement training</option>
+                <option value="int">intership</option>
+            </select>
+        </p>
+        <p align ="centre">
+            <input type="check box" id="tc" name="tc" required>
+            <label>I accepted all terms &conditions</label>
+        </p>
+        <p align="centre">
+            <button type="submit" id="sb">registration form</button>
+        </p>
+    </div>
+    </body>
+</html>
